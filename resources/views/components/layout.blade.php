@@ -8,7 +8,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400&family=McLaren&family=Merriweather:wght@300&family=Montserrat:wght@100;400;700;900&family=Mulish:wght@200;300;400;500;600;700&family=Nunito:wght@300&family=Poppins:wght@100;200;300;400;500&family=Sacramento&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/69c65b50a4.js" crossorigin="anonymous"></script>
 
 
 <body  style="font-family: 'Poppins', sans-serif; ;">

@@ -6,3 +6,12 @@ $('.dropbtn').each(function() {
       $(this).next('.dropdown-content').hide();
     });
   });
+
+  $('.LeftBannerButton').on('click', function() {
+    $('.LeftBanner').removeClass('hidden')
+  });
+
+$('.CloseLeftBannerButton').on('click', function() {
+    $('.LeftBanner').addClass('hidden')
+  });
+ 

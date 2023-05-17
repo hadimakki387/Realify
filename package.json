@@ -450,6 +450,7 @@
     "supports-color": "^7.2.0",
     "supports-preserve-symlinks-flag": "^1.0.0",
     "svgo": "^2.8.0",
+    "tailwindcss": "^3.3.2",
     "tapable": "^2.2.1",
     "terser": "^5.17.3",
     "terser-webpack-plugin": "^5.3.8",

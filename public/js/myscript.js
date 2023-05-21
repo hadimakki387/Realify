@@ -21,6 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
+//this is right banner script
 $('.dropbtn').each(function () {
   $(this).on('click', function () {
     $(this).next('.dropdown-content').toggle();
@@ -34,6 +35,18 @@ $('.LeftBannerButton').on('click', function () {
 });
 $('.CloseLeftBannerButton').on('click', function () {
   $('.LeftBanner').addClass('hidden');
+});
+
+//this is the carousel script
+var carousel = document.querySelector('#carousel');
+var currentSlide = 0;
+document.querySelector('.prevSlide').addEventListener('click', function () {
+  currentSlide = (currentSlide + 1) % carousel.children.length;
+  carousel.style.transform = "translateX(-".concat(currentSlide * 100, "%)");
+});
+document.querySelector('.nextSlide').addEventListener('click', function () {
+  currentSlide = (currentSlide - 1 + carousel.children.length) % carousel.children.length;
+  carousel.style.transform = "translateX(-".concat(currentSlide * 100, "%)");
 });
 
 /***/ })

@@ -462,6 +462,7 @@
     "toidentifier": "^1.0.1",
     "tslib": "^2.5.0",
     "tty-browserify": "^0.0.0",
+    "tw-elements": "^1.0.0-beta2",
     "type-is": "^1.6.18",
     "unicode-canonical-property-names-ecmascript": "^2.0.0",
     "unicode-match-property-ecmascript": "^2.0.0",
